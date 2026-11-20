@@ -1,0 +1,367 @@
+body{font-family: Arial, Helvetica, sans-serif;}
+nav ul{list-style-type: none;margin:padding 0px;background-color: azures;overflow: hidden;}
+
+nav ul li{ 
+    float:left;
+}
+
+nav ul li a{
+    display: block;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    background-color: brown;
+
+}
+.thumbnails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.thumbnails img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #111 ;
+    transition: transform 0.3s ease;
+}
+.thumbnails img:hover{
+    transform:scale(1.77);
+}
+main p{
+    text-align: justify;
+    line-height: 1.5;
+    width: 95%;
+}
+body {
+    background-color: azure;
+}
+.verde {
+    color: #009246;
+}
+
+.blanco {
+    color: #777777;
+}
+
+.rojo {
+    color: #ce2b37;
+}
+.titulo-italia {
+    background: linear-gradient(
+        to right,
+        #009246,
+        #ffffff,
+        #ce2b37
+    );
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5;
+    color: #263238;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #00804a;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcccc;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #ce2b37;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+/* Tarjetas de cada integrante */
+.integrante {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #00000012;
+    border-left: 6px solid #009246;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.integrante:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px #00000020;
+}
+
+.integrante h2 {
+    color: #00804a;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.integrante p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    main {
+        margin: 15px auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+body {
+    margin: 0;
+    background: #faf9f6;
+    color: #292d29;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: white;
+    border-bottom: 1px solid #eeeae3;
+}
+
+.logo {
+    color: #286844;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo span,
+.intro h1 span,
+footer span {
+    color: #d65353;
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+}
+
+nav a {
+    color: #555b55;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover,
+nav a.activo {
+    color: #286844;
+}
+
+.intro {
+    text-align: center;
+    padding: 65px 20px 40px;
+}
+
+.subtitulo {
+    color: #39835a;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.intro h1 {
+    margin: 12px 0;
+    font-size: clamp(34px, 5vw, 52px);
+}
+
+.intro > p:last-child,
+.ayuda {
+    color: #777d75;
+}
+
+.explorar {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px 22px 60px;
+}
+
+.explorar > h2,
+.ayuda {
+    text-align: center;
+}
+
+.explorar > h2 {
+    font-size: 25px;
+}
+
+.mapa {
+    position: relative;
+    max-width: 470px;
+    margin: 25px auto 40px;
+    padding: 12px;
+    background: white;
+    border: 1px solid #eeece5;
+    border-radius: 16px;
+}
+
+.mapa img {
+    display: block;
+    width: 100%;
+}
+
+.punto {
+    position: absolute;
+    padding: 7px 11px;
+    background: #286844;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px #0002;
+    transition: 0.2s;
+}
+
+.punto:hover,
+.punto:focus {
+    background: #d65353;
+    transform: translateY(-2px);
+}
+
+.roma {
+    left: 58%;
+    top: 57%;
+}
+
+.milan {
+    left: 38%;
+    top: 25%;
+}
+
+.venecia {
+    left: 63%;
+    top: 30%;
+}
+
+.florencia {
+    left: 48%;
+    top: 43%;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.ciudad {
+    padding: 22px;
+    background: white;
+    border: 1px solid #eeece5;
+    border-radius: 12px;
+    scroll-margin-top: 20px;
+}
+
+.ciudad:target {
+    border-color: #39835a;
+    background: #f0f6ef;
+}
+
+.ciudad span {
+    color: #39835a;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.ciudad h3 {
+    margin: 12px 0 8px;
+    font-size: 21px;
+}
+
+.ciudad p {
+    color: #71766f;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.ciudad a {
+    color: #286844;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    padding: 22px;
+    text-align: center;
+    background: white;
+    border-top: 1px solid #eeece5;
+    color: #777d75;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 18px;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .intro {
+        padding: 45px 15px 25px;
+    }
+
+    .tarjetas {
+        grid-template-columns: 1fr;
+    }
+
+    .explorar {
+        padding: 10px 14px 40px;
+    }
+
+    .punto {
+        font-size: 10px;
+        padding: 5px 7px;
+    }
+}
